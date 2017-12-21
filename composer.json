@@ -1,0 +1,33 @@
+{
+  "name": "badtomcat/tool",
+  "type": "library",
+  "description": "bad tomcat tool sets",
+  "keywords": [
+    "view"
+  ],
+  "homepage": "https://github.com/badtomcat/tool",
+  "require": {
+    "php": ">=5.4",
+    "symfony/process": "~3.2",
+    "symfony/console": "^3.4",
+    "vlucas/phpdotenv": "~2.2",
+    "badtomcat/reflection": "~0.0.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "badtomcat",
+      "email": "531164479@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "Badtomcat\\Tool\\": "src/"
+    }
+  }
+}
